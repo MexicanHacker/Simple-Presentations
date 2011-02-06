@@ -1,8 +1,9 @@
+require 'rubygems'
 require 'sinatra'
 require 'haml'
 
 get '/' do
-    "The options will go here, for now use /slide/1 as an example"
+    'The options will be here, for now use /slide/1 as an example'
 end
 
 get '/slide/:number' do
