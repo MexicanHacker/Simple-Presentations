@@ -1,0 +1,18 @@
+body {
+    background: #111;
+    font: 100px Helvetica, Arial, sans-serif;
+    letter-spacing: -3px;
+    margin: 8px;
+    margin-left: 0px;
+}
+
+#title {
+    color: #58aa00;
+    font-weight: bold;
+}
+  
+#content {
+    position: absolute;
+    top: 15%; 
+    color: #5c5c5c;
+}
