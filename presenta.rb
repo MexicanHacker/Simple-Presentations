@@ -3,7 +3,7 @@ require 'sinatra'
 require 'haml'
 
 get '/' do
-    'The options will be here, for now use /slide/1 as an example'
+    haml :index
 end
 
 get '/slide/:number' do
