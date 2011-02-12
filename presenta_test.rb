@@ -1,4 +1,4 @@
-require 'sppt_app'
+require 'presenta'
 require 'test/unit'
 require 'rack/test'
 
