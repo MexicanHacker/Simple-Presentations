@@ -2,11 +2,19 @@ require 'yajl'
 
 class Service
    
-    def previous_slide(slides, slide_number)
+    def next_slide(slides, slide_number)
         if  (slide_number >= slides.size)
             return 0
         else
             return slide_number + 1
+        end
+    end
+    
+    def previous_slide(slides, slide_number)
+        if  (slide_number >= 0 )
+            return slide_number - 1
+        else
+            return 0
         end
     end
     
