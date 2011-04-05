@@ -9,10 +9,12 @@ end
 
 get '/slide/:number' do
   service = Service.new
-  slides = .get_slides('files/presentation.json')
-  slide_to_show = slides[params[:number].to_i] 
+  slides = service.get_slides('files/presentation.json')
+  slide_number = params[:number].to_i
+  slide_to_show = slides[slide_number] 
   @title = "#{slide_to_show['title']}"
   @content = "#{slide_to_show['content']}"
-  @previous = "#{service.previous_slide(slides,2)}"
+  @previous = "/slide/#{service.previous_slide(slides,slide_number)}"
+  @next = "/slide/#{service.next_slide(slides,slide_number)}"
   haml :slide   
 end

@@ -19,7 +19,7 @@ class ServiceTest  < Test::Unit::TestCase
         service = Service.new
         slides = service.get_slides(get_tmp_file)
         assert_equal(1, service.next_slide(slides,0))
-        assert_equal(2, service.next_slide(slides,1))
+        assert_equal(1, service.next_slide(slides,1))
     end
     
     def get_tmp_file
