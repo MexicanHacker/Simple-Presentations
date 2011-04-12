@@ -8,11 +8,12 @@ body {
 
 #title {
     color: #58aa00;
+    font: 130px Helvetica, Arial, sans-serif;
     font-weight: bold;
 }
   
 #content {
     position: absolute;
-    top: 15%; 
+    top: 25%; 
     color: #5c5c5c;
 }
