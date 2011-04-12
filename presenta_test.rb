@@ -15,7 +15,7 @@ class AppTest < Test::Unit::TestCase
   def test_home_page_response
     get '/'
     assert last_response.ok?
-    assert last_response.body.include?('The options will be here, for now use /slide/0 as an example')
+    assert last_response.body.include?('Use /slide/0 as an example')
   end
   
   def test_slide_and_number
