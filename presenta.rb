@@ -9,7 +9,7 @@ end
 
 get '/slide/:number' do
   service = Service.new
-  slides = service.get_slides('files/presentation.json')
+  slides =  service.get_slides('files/presentation.json')
   slide_number = params[:number].to_i
   slide_to_show = slides[slide_number] 
   @title = "#{slide_to_show['title']}"

@@ -1,11 +1,23 @@
 { 
    "presentation" : 
       [ 
-         { "title" : "Dude,",
-           "content"  : "This is Json<br/>And it Works<br />  Perfectly"
+         { "title" : "The guys in GDL",
+           "content"  : "<ul><li>Different culture</li><li>Different habits</li><li>Mexican</li><li>Let them know</li><ul>"
          },
-         { "title" : "No",
-           "content" : "Really?"
+         { "title" : "No, nope, can't do it",
+           "content" : "<ul><li>Pressure comes from ourselves</li><li>Provide options</li><li>Be polite</li><ul>"
+         },
+         { "title" : "Oh shit!",
+           "content" : "<ul><li>Talk soon</li><li>Provide solutions</li><li>It's going to be okay</li><ul>"
+         },
+         { "title" : "Where is the pilot?",
+           "content" : "<ul><li>Growing leadership</li><li>Don't assume</li><li>Take decisions</li><li>You are going to do great</li><ul>"
+         },
+         { "title" : "Go deep",
+           "content" : "<ul><li>Static methods and classes</li><li>Boring subjects</li><li>Specialization</li><li>Short cuts</li><ul>"
+         },
+         { "title" : "Biggest gap",
+           "content" : "<ul><li>Quality</li><li>Hand off</li><li>Wrap it up</li><li>Test it again</li><ul>"
          }
       ]
 }

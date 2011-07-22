@@ -14,6 +14,10 @@ body {
   
 #content {
     position: absolute;
-    top: 25%; 
-    color: #5c5c5c;
+    top: 15%; 
+    color: #D7D7D7;
+}
+
+li {
+margin-top: 40px;
 }
