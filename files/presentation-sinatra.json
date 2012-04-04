@@ -1,0 +1,26 @@
+{ 
+   "presentation" : 
+      [ 
+         { "title" : "Witchcraft",
+           "content"  : "<ul><li>DSL for Web applications</li><li>Ruby programming language</li><li>You'll have URL's</li><ul>"
+         },
+         { "title" : "Nice 'N' easy",
+           "content"  : "<ul><li>Rides on rack</li><li>Lightweight</li><li>Can be a single file</li><li>No infrastructure</li><ul>"
+         },
+         { "title" : "Start spreading the news",
+           "content" : "<ul><li>Deploy to Heroku</li><li>You can use HAML</li><li>You can hook it with rails</li><ul>"
+         },
+         { "title" : "It was a very good year",
+           "content" : "<ul><li>Used in Converse</li><li>Use it to prototype at no cost</li><li>Clients benefit</li><ul>"
+         },
+         { "title" : "Come Fly with Me",
+           "content" : "<ul><li>Create a .rb file</li><li>require 'sinatra'</li><li>Run it with $>ruby file.rb</li><ul>"
+         },
+         { "title" : "Fly me to the moon",
+           "content" : "<ul><li>Use templates</li><li>Models (Data mapper)</li><li>Test with Rack::Test</li><li>Shotgun</li><ul>"
+         },
+         { "title" : "Some other time",
+           "content" : "<ul><li>sinatrarb.com</li><li>sinatra-recipes in GitHub</li><li>Sinatra book</li><ul>"
+         }
+      ]
+}
