@@ -10,7 +10,7 @@
          { "title" : "Start spreading the news",
            "content" : "<ul><li>Deploy to Heroku</li><li>You can use HAML</li><li>You can hook it with rails</li><ul>"
          },
-         { "title" : "It was a very good year",
+         { "title" : "It was a very...",
            "content" : "<ul><li>Used in Converse</li><li>Use it to prototype at no cost</li><li>Clients benefit</li><ul>"
          },
          { "title" : "Come Fly with Me",
